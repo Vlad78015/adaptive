@@ -1,0 +1,474 @@
+body{
+    background-color: #171717;
+}
+.header {
+    max-width: 1600px;
+    color: #FAFAF9;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.header-logo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    transition: 0.4s;
+}
+.header-logo:hover{
+    cursor: pointer;
+    color: darkgoldenrod;
+    letter-spacing: 3px;
+}
+.header-nav {
+    word-spacing: 20px;
+}
+.header-nav-info {
+    color: #FAFAF9;
+    text-decoration: none;
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    transition: 0.4s;
+}
+.header-nav-info:hover{
+    color: aqua;
+    letter-spacing: 2px;
+}
+.main{
+    max-width: 1200px;
+}
+.block {
+    max-width: 1883px;
+    height: 340px;
+    margin-left: 55px;
+}
+.title {
+    color: #FAFAF9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 172px;
+    line-height: 170px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.title:hover{
+    cursor: pointer;
+    color: #e6ad3c;
+    text-shadow: 1px 2px 3px #000;
+    letter-spacing: 2px;
+}
+.block-text {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: -23px;
+    width: 560px;
+    height: 48px;
+    transition: 0.4s;
+}
+.block-text:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.button {
+    margin-top: 50px;
+    background: #E6533C;
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(112, 209, 14);
+    letter-spacing: 3px;
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 2px 3px #000;
+}
+.button:active{
+    background-color: rgb(0, 72, 255);
+    color: coral;
+}
+.end-text {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: rgba(239, 237, 232, 0.65);
+    margin-top: 112px;
+    transition: 0.4s;
+}
+.end-text:hover{
+    color: lightgreen;
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+.end-image {
+    margin-top: 33px;
+    margin-bottom: 91px;
+}
+.end-image:hover{
+    cursor: pointer;
+}
+.km {
+    background: #EF8964;
+    border-radius: 12px;
+    width: 180px;
+    height: 110px;
+    left: 1128px;
+    top: 230px;
+    position: absolute;
+    transition: 0.4s;
+}
+.km:hover{
+    background-color: #e6ad3c;
+    cursor: pointer;
+}
+.km:hover .km-img{
+    transform: scale(1.4);
+}
+.km-img {
+    position: absolute;
+    left: 6.03%;
+    right: 6.03%;
+    top: 13.48%;
+    bottom: 0%;
+    transition: 0.4s;
+}
+.numbers {
+    margin: 35px 16px;
+    color: rgba(239, 237, 232, 0.65);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    word-spacing: 16px;
+    text-align: center;
+    transition: 0.4s;
+}
+.numbers:hover{
+    letter-spacing: 3px;
+    color: chartreuse;
+    text-shadow: 1px 2px 3px #000;
+}
+.kilometers {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    color: #FAFAF9;
+    transition: 0.4s;
+}
+.kilometers:hover{
+    text-shadow: 1px 2px 3px #000;
+}
+.box-image {
+    position: absolute;
+    width: 409px;
+    height: 684px;
+    left: 836px;
+    top: 256px;
+    z-index: 1;
+}
+.box-image:hover{
+    cursor: pointer;
+}
+.video-tutorial {
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    left: 733px;
+    top: 679px;
+    background: #303030;
+    border-radius: 12px;
+    z-index: 2;
+    transition: 0.4s;
+}
+.video-tutorial:hover{
+    background-color: rgb(245, 179, 93);
+    text-shadow: 1px 2px 3px #000;
+    cursor: pointer;
+}
+.video-tutorial:active{
+    background-color: darkkhaki;
+}
+.video-tutorial:hover .bottom-info{
+    color: rgb(231, 46, 9);
+}
+.video-tutorial:hover .play-info{
+    color: cornflowerblue;
+}
+.play {
+    margin: 30px 15px;
+    animation: play 3s linear infinite ;
+}
+@keyframes play{
+    0%{
+        transform: rotate(-360deg);
+    }
+}
+.play-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #FAFAF9;
+    text-align: center;
+    margin-top: -75px;
+    transition: 0.4s;
+}
+.bottom-info {
+    font-family: 'Inter Tight';
+    transition: 0.4s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(239, 237, 232, 0.65);
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 25px;
+}
+.workout-videos {
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    left: 1179px;
+    top: 729px;
+    background: #7A29DC;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+.workout-videos:hover{
+    background-color: #EF8964;
+    cursor: pointer;
+    text-shadow: 1px 2px 3px #000;
+}
+.workout-videos:active{
+    background-color: #e6ad3c;
+    cursor: pointer;
+}
+.workout-title {
+    margin: 19px 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #FAFAF9;
+    transition: 0.4s;
+}
+.workout-title:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.workout-text {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgba(239, 237, 232, 0.65);
+    margin: -9px 24px;
+    transition: 0.4s;
+}
+.workout-text:hover{
+    cursor: pointer;
+}
+.nav__login{
+    display: none;
+    background: #3ce650;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    text-shadow: 1px 1px 2px #000;
+}
+.nav__login:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: cyan;
+}
+/* ------------------ ADAPTIVE ------------------ */
+
+@media(max-width: 1199px) {
+    .box-image {
+        display: none;
+    }
+    .km {
+        display: none;
+    }
+    .video-tutorial {
+        display: none;
+    }
+    .workout-videos{
+        display: none;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .block-text{
+        margin: 0 auto;
+    }
+}
+@media(max-width: 991px){
+    .title{
+        font-size: 105px;
+    }
+    .video-tutorial{
+        display: flex;
+        max-width: 1100px;
+        height: 96px;
+        align-items: center;
+        left: 50px;
+    }
+    .play-info{
+        margin-top: 20px;
+    }
+    .bottom-info{
+        margin-top: 55px;
+        margin-left: -70px;
+    }
+    .workout-videos{
+        display: flex;
+        max-width: 1193px;
+        height: 98px;
+        left: 51px;
+        top: 780px;
+        align-items: center;
+    }
+    .workout-title{
+        font-size: 32px;
+    }
+    .workout-text{
+        margin-top: 45px;
+        margin-left: -105px;
+        font-size: 12px;
+    }
+    .km{
+        display: flex;
+        max-width: 1180px;
+        height: 110px;
+        left: 358px;
+        top: 80px;
+    }
+}
+@media(max-width: 767px){
+    .header-nav{
+        display: none;
+    }
+    .title{
+        font-size: 80px;
+    }
+    .nav__login{
+        display: block;
+        margin: 0;
+    }
+    .video-tutorial{
+        display: none;
+    }
+    .play-info{
+        display: none;
+    }
+    .bottom-info{
+        display: none;
+    }
+    .workout-videos{
+        display: none;
+    }
+    .workout-title{
+        display: none;
+    }
+    .workout-text{
+        display: none;
+    }
+    .km{
+        display: none;
+    }
+}
+@media(max-width: 575px){
+    body{
+        background: linear-gradient( #aff400, #f90202);
+    }
+    .header{
+        color: #7A29DC;
+    }
+    .title{
+        color: darkcyan;
+    }
+    .block-text{
+        color: rgb(237, 100, 225);
+        text-shadow: 1px 1px 2px #000;
+    }
+    .button{
+        background-color: cyan;
+        color: #000;
+    }
+    .end-text{
+        color: lime;
+    }
+    .video-tutorial{
+        display: none;
+    }
+    .play-info{
+        display: none;
+    }
+    .bottom-info{
+        display: none;
+    }
+    .workout-videos{
+        display: none;
+    }
+    .workout-title{
+        display: none;
+    }
+    .workout-text{
+        display: none;
+    }
+    .km{
+        display: none;
+    }
+}
